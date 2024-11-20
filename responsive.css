@@ -1,0 +1,55 @@
+/* Responsividade */
+  @media (max-width: 1024px) {
+    .container {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .nav {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .content {
+      max-width: 100%;
+    }
+  
+    .image-container {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .content p {
+      font-size: 0.9rem;
+    }
+  
+    .form-group input,
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content h1 {
+      font-size: 2rem;
+    }
+  
+    .form-group input,
+    .form-group button {
+      font-size: 0.8rem;
+    }
+  }
+
+  
